@@ -507,8 +507,8 @@
         <bool id="hidden">0</bool>
     </levelGraphic>
     <levelGraphic>
-        <vector2 id="position">11.6669 -0.464077</vector2>
-        <vector2 id="size">0.839999 0.4</vector2>
+        <vector2 id="position">12.39 -0.46</vector2>
+        <vector2 id="size">2.24 0.42</vector2>
         <float id="depth">0.0342307</float>
         <float id="parallax">0.0001</float>
         <float id="angle">0</float>
@@ -531,7 +531,7 @@
         <float id="leftTaper">1</float>
         <float id="rightTaper">1</float>
         <vector2 id="textureScroll">0 0</vector2>
-        <vector2 id="textureScale">1.79 1</vector2>
+        <vector2 id="textureScale">4.09 1</vector2>
         <string id="textureWrapMode">REPEAT</string>
         <float id="animationSpeed">1</float>
         <string id="blendMode">ALPHA_BLEND</string>
@@ -553,7 +553,7 @@
         <bool id="hidden">0</bool>
     </levelGraphic>
     <levelGraphic>
-        <vector2 id="position">12.85 0.74</vector2>
+        <vector2 id="position">13.14 0.76</vector2>
         <vector2 id="size">0.46 0.24</vector2>
         <float id="depth">0.0194792</float>
         <float id="parallax">-0.011</float>
@@ -599,7 +599,7 @@
         <bool id="hidden">0</bool>
     </levelGraphic>
     <levelGraphic>
-        <vector2 id="position">13.045 0.675</vector2>
+        <vector2 id="position">13.335 0.695</vector2>
         <vector2 id="size">0.89 0.41</vector2>
         <float id="depth">0.00915386</float>
         <float id="parallax">-0.01</float>
@@ -645,8 +645,8 @@
         <bool id="hidden">0</bool>
     </levelGraphic>
     <levelGraphic>
-        <vector2 id="position">12.59 0.86</vector2>
-        <vector2 id="size">2.24 0.6</vector2>
+        <vector2 id="position">12.72 0.86</vector2>
+        <vector2 id="size">2.5 0.6</vector2>
         <float id="depth">0.0342307</float>
         <float id="parallax">0.0001</float>
         <float id="angle">0</float>
@@ -1194,7 +1194,7 @@
         <bool id="hideOnHighGraphicsQuality">0</bool>
         <bool id="showOnlyOnLowGraphicsQuality">0</bool>
         <bool id="frozen">0</bool>
-        <bool id="hidden">1</bool>
+        <bool id="hidden">0</bool>
     </levelGraphic>
     <levelGraphic>
         <vector2 id="position">9.17 -0.83</vector2>
@@ -1597,7 +1597,7 @@
         <bool id="hidden">0</bool>
     </levelGraphic>
     <levelGraphic>
-        <vector2 id="position">13.04 0.83</vector2>
+        <vector2 id="position">13.33 0.85</vector2>
         <vector2 id="size">0.2 0.2</vector2>
         <float id="depth">0.0909325</float>
         <float id="parallax">0</float>
@@ -1643,7 +1643,7 @@
         <bool id="hidden">0</bool>
     </levelGraphic>
     <levelGraphic>
-        <vector2 id="position">13.56 0.81</vector2>
+        <vector2 id="position">13.85 0.83</vector2>
         <vector2 id="size">0.2 0.2</vector2>
         <float id="depth">0.0858332</float>
         <float id="parallax">0</float>
@@ -1655,52 +1655,6 @@
         <colour id="colourRGBA">0 0 0 255</colour>
         <float id="saturation">1</float>
         <string id="textureName">bb_lvl_6_curtain_2</string>
-        <string id="influencedName"></string>
-        <float id="transparencyWhenInfluenced">0</float>
-        <vector2 id="offset">0 0</vector2>
-        <float id="topSkew">0</float>
-        <float id="botSkew">0</float>
-        <float id="leftSkew">0</float>
-        <float id="rightSkew">0</float>
-        <float id="topTaper">1</float>
-        <float id="botTaper">1</float>
-        <float id="leftTaper">1</float>
-        <float id="rightTaper">1</float>
-        <vector2 id="textureScroll">0 0</vector2>
-        <vector2 id="textureScale">1 1</vector2>
-        <string id="textureWrapMode">CLAMP</string>
-        <float id="animationSpeed">1</float>
-        <string id="blendMode">ALPHA_BLEND</string>
-        <string id="texture2Name"></string>
-        <string id="secondaryTextureOperation">MULTIPLY</string>
-        <vector2 id="texture2Scroll">0 0</vector2>
-        <vector2 id="texture2Scale">1 1</vector2>
-        <colour id="secondaryCombineColour">255 255 255 255</colour>
-        <int id="numSegmentsX">1</int>
-        <int id="numSegmentsY">1</int>
-        <bool id="dontOffsetWithParallax">0</bool>
-        <bool id="textureSubSampling">0</bool>
-        <colour id="levelsBrightnesses">0 127 255 255</colour>
-        <bool id="forceToBackground">0</bool>
-        <bool id="platformSpecificTexture">0</bool>
-        <bool id="hideOnHighGraphicsQuality">0</bool>
-        <bool id="showOnlyOnLowGraphicsQuality">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </levelGraphic>
-    <levelGraphic>
-        <vector2 id="position">13.3 0.75</vector2>
-        <vector2 id="size">0.38 0.4</vector2>
-        <float id="depth">-0.17359</float>
-        <float id="parallax">0</float>
-        <float id="angle">0</float>
-        <bool id="mirrorX">0</bool>
-        <bool id="allowAnimationOffsetsToAlterCCM">1</bool>
-        <string id="colourCombineModeRGB">NONE</string>
-        <string id="colourCombineModeAlpha">NONE</string>
-        <colour id="colourRGBA">0 0 0 255</colour>
-        <float id="saturation">1</float>
-        <string id="textureName">bb_lvl_6_gun_E</string>
         <string id="influencedName"></string>
         <float id="transparencyWhenInfluenced">0</float>
         <vector2 id="offset">0 0</vector2>
@@ -1811,7 +1765,7 @@
         <bool id="hidden">0</bool>
     </levelParticle>
     <levelGraphic>
-        <vector2 id="position">9.64898 -0.512052</vector2>
+        <vector2 id="position">9.64 -0.53</vector2>
         <vector2 id="size">0.04 0.88</vector2>
         <float id="depth">0.0755769</float>
         <float id="parallax">0.02</float>
@@ -2005,4 +1959,234 @@
         <bool id="frozen">0</bool>
         <bool id="hidden">0</bool>
     </levelParticle>
+    <levelGraphic>
+        <vector2 id="position">12.45 0.07</vector2>
+        <vector2 id="size">0.799999 0.96</vector2>
+        <float id="depth">0.0913514</float>
+        <float id="parallax">0.001</float>
+        <float id="angle">0</float>
+        <bool id="mirrorX">0</bool>
+        <bool id="allowAnimationOffsetsToAlterCCM">1</bool>
+        <string id="colourCombineModeRGB">ADD</string>
+        <string id="colourCombineModeAlpha">NONE</string>
+        <colour id="colourRGBA">10 23 33 255</colour>
+        <float id="saturation">1</float>
+        <string id="textureName">bb_lvl_6_hullwall_wall_A</string>
+        <string id="influencedName"></string>
+        <float id="transparencyWhenInfluenced">0</float>
+        <vector2 id="offset">0 0</vector2>
+        <float id="topSkew">0</float>
+        <float id="botSkew">0</float>
+        <float id="leftSkew">0</float>
+        <float id="rightSkew">0</float>
+        <float id="topTaper">1</float>
+        <float id="botTaper">1</float>
+        <float id="leftTaper">1</float>
+        <float id="rightTaper">1</float>
+        <vector2 id="textureScroll">0.05 0</vector2>
+        <vector2 id="textureScale">1.01 1</vector2>
+        <string id="textureWrapMode">CLAMP</string>
+        <float id="animationSpeed">1</float>
+        <string id="blendMode">ALPHA_BLEND</string>
+        <string id="texture2Name"></string>
+        <string id="secondaryTextureOperation">MULTIPLY</string>
+        <vector2 id="texture2Scroll">0 0</vector2>
+        <vector2 id="texture2Scale">1 1</vector2>
+        <colour id="secondaryCombineColour">255 255 255 255</colour>
+        <int id="numSegmentsX">1</int>
+        <int id="numSegmentsY">1</int>
+        <bool id="dontOffsetWithParallax">0</bool>
+        <bool id="textureSubSampling">0</bool>
+        <colour id="levelsBrightnesses">0 127 255 255</colour>
+        <bool id="forceToBackground">0</bool>
+        <bool id="platformSpecificTexture">0</bool>
+        <bool id="hideOnHighGraphicsQuality">0</bool>
+        <bool id="showOnlyOnLowGraphicsQuality">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </levelGraphic>
+    <levelGraphic>
+        <vector2 id="position">12.74 0.05</vector2>
+        <vector2 id="size">0.280001 0.18</vector2>
+        <float id="depth">0.0155643</float>
+        <float id="parallax">0</float>
+        <float id="angle">-207</float>
+        <bool id="mirrorX">0</bool>
+        <bool id="allowAnimationOffsetsToAlterCCM">1</bool>
+        <string id="colourCombineModeRGB">NONE</string>
+        <string id="colourCombineModeAlpha">NONE</string>
+        <colour id="colourRGBA">0 0 0 255</colour>
+        <float id="saturation">1</float>
+        <string id="textureName">BB_PurplePlant_B</string>
+        <string id="influencedName"></string>
+        <float id="transparencyWhenInfluenced">0</float>
+        <vector2 id="offset">0 0</vector2>
+        <float id="topSkew">0</float>
+        <float id="botSkew">0</float>
+        <float id="leftSkew">0</float>
+        <float id="rightSkew">0</float>
+        <float id="topTaper">1</float>
+        <float id="botTaper">1</float>
+        <float id="leftTaper">1</float>
+        <float id="rightTaper">1</float>
+        <vector2 id="textureScroll">0 0</vector2>
+        <vector2 id="textureScale">1 1</vector2>
+        <string id="textureWrapMode">CLAMP</string>
+        <float id="animationSpeed">1</float>
+        <string id="blendMode">ALPHA_BLEND</string>
+        <string id="texture2Name"></string>
+        <string id="secondaryTextureOperation">MULTIPLY</string>
+        <vector2 id="texture2Scroll">0 0</vector2>
+        <vector2 id="texture2Scale">1 1</vector2>
+        <colour id="secondaryCombineColour">255 255 255 255</colour>
+        <int id="numSegmentsX">1</int>
+        <int id="numSegmentsY">1</int>
+        <bool id="dontOffsetWithParallax">0</bool>
+        <bool id="textureSubSampling">0</bool>
+        <colour id="levelsBrightnesses">0 127 255 255</colour>
+        <bool id="forceToBackground">0</bool>
+        <bool id="platformSpecificTexture">0</bool>
+        <bool id="hideOnHighGraphicsQuality">0</bool>
+        <bool id="showOnlyOnLowGraphicsQuality">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </levelGraphic>
+    <levelGraphic>
+        <vector2 id="position">12.21 0.39</vector2>
+        <vector2 id="size">0.24 0.2</vector2>
+        <float id="depth">0.0155643</float>
+        <float id="parallax">0</float>
+        <float id="angle">-137.572</float>
+        <bool id="mirrorX">0</bool>
+        <bool id="allowAnimationOffsetsToAlterCCM">1</bool>
+        <string id="colourCombineModeRGB">NONE</string>
+        <string id="colourCombineModeAlpha">NONE</string>
+        <colour id="colourRGBA">0 0 0 255</colour>
+        <float id="saturation">1</float>
+        <string id="textureName">BB_PurplePlant_B</string>
+        <string id="influencedName"></string>
+        <float id="transparencyWhenInfluenced">0</float>
+        <vector2 id="offset">0 0</vector2>
+        <float id="topSkew">0</float>
+        <float id="botSkew">0</float>
+        <float id="leftSkew">0</float>
+        <float id="rightSkew">0</float>
+        <float id="topTaper">1</float>
+        <float id="botTaper">1</float>
+        <float id="leftTaper">1</float>
+        <float id="rightTaper">1</float>
+        <vector2 id="textureScroll">0 0</vector2>
+        <vector2 id="textureScale">1 1</vector2>
+        <string id="textureWrapMode">CLAMP</string>
+        <float id="animationSpeed">1</float>
+        <string id="blendMode">ALPHA_BLEND</string>
+        <string id="texture2Name"></string>
+        <string id="secondaryTextureOperation">MULTIPLY</string>
+        <vector2 id="texture2Scroll">0 0</vector2>
+        <vector2 id="texture2Scale">1 1</vector2>
+        <colour id="secondaryCombineColour">255 255 255 255</colour>
+        <int id="numSegmentsX">1</int>
+        <int id="numSegmentsY">1</int>
+        <bool id="dontOffsetWithParallax">0</bool>
+        <bool id="textureSubSampling">0</bool>
+        <colour id="levelsBrightnesses">0 127 255 255</colour>
+        <bool id="forceToBackground">0</bool>
+        <bool id="platformSpecificTexture">0</bool>
+        <bool id="hideOnHighGraphicsQuality">0</bool>
+        <bool id="showOnlyOnLowGraphicsQuality">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </levelGraphic>
+    <levelGraphic>
+        <vector2 id="position">12.08 -0.41</vector2>
+        <vector2 id="size">0.28 0.18</vector2>
+        <float id="depth">0.0155643</float>
+        <float id="parallax">0</float>
+        <float id="angle">-191.571</float>
+        <bool id="mirrorX">0</bool>
+        <bool id="allowAnimationOffsetsToAlterCCM">1</bool>
+        <string id="colourCombineModeRGB">NONE</string>
+        <string id="colourCombineModeAlpha">NONE</string>
+        <colour id="colourRGBA">0 0 0 255</colour>
+        <float id="saturation">1</float>
+        <string id="textureName">BB_PurplePlant_B</string>
+        <string id="influencedName"></string>
+        <float id="transparencyWhenInfluenced">0</float>
+        <vector2 id="offset">0 0</vector2>
+        <float id="topSkew">0</float>
+        <float id="botSkew">0</float>
+        <float id="leftSkew">0</float>
+        <float id="rightSkew">0</float>
+        <float id="topTaper">1</float>
+        <float id="botTaper">1</float>
+        <float id="leftTaper">1</float>
+        <float id="rightTaper">1</float>
+        <vector2 id="textureScroll">0 0</vector2>
+        <vector2 id="textureScale">1 1</vector2>
+        <string id="textureWrapMode">CLAMP</string>
+        <float id="animationSpeed">1</float>
+        <string id="blendMode">ALPHA_BLEND</string>
+        <string id="texture2Name"></string>
+        <string id="secondaryTextureOperation">MULTIPLY</string>
+        <vector2 id="texture2Scroll">0 0</vector2>
+        <vector2 id="texture2Scale">1 1</vector2>
+        <colour id="secondaryCombineColour">255 255 255 255</colour>
+        <int id="numSegmentsX">1</int>
+        <int id="numSegmentsY">1</int>
+        <bool id="dontOffsetWithParallax">0</bool>
+        <bool id="textureSubSampling">0</bool>
+        <colour id="levelsBrightnesses">0 127 255 255</colour>
+        <bool id="forceToBackground">0</bool>
+        <bool id="platformSpecificTexture">0</bool>
+        <bool id="hideOnHighGraphicsQuality">0</bool>
+        <bool id="showOnlyOnLowGraphicsQuality">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </levelGraphic>
+    <levelGraphic>
+        <vector2 id="position">12.27 -0.39</vector2>
+        <vector2 id="size">0.24 0.2</vector2>
+        <float id="depth">0.0155643</float>
+        <float id="parallax">0</float>
+        <float id="angle">-159.858</float>
+        <bool id="mirrorX">0</bool>
+        <bool id="allowAnimationOffsetsToAlterCCM">1</bool>
+        <string id="colourCombineModeRGB">NONE</string>
+        <string id="colourCombineModeAlpha">NONE</string>
+        <colour id="colourRGBA">0 0 0 255</colour>
+        <float id="saturation">1</float>
+        <string id="textureName">BB_PurplePlant_B</string>
+        <string id="influencedName"></string>
+        <float id="transparencyWhenInfluenced">0</float>
+        <vector2 id="offset">0 0</vector2>
+        <float id="topSkew">0</float>
+        <float id="botSkew">0</float>
+        <float id="leftSkew">0</float>
+        <float id="rightSkew">0</float>
+        <float id="topTaper">1</float>
+        <float id="botTaper">1</float>
+        <float id="leftTaper">1</float>
+        <float id="rightTaper">1</float>
+        <vector2 id="textureScroll">0 0</vector2>
+        <vector2 id="textureScale">1 1</vector2>
+        <string id="textureWrapMode">CLAMP</string>
+        <float id="animationSpeed">1</float>
+        <string id="blendMode">ALPHA_BLEND</string>
+        <string id="texture2Name"></string>
+        <string id="secondaryTextureOperation">MULTIPLY</string>
+        <vector2 id="texture2Scroll">0 0</vector2>
+        <vector2 id="texture2Scale">1 1</vector2>
+        <colour id="secondaryCombineColour">255 255 255 255</colour>
+        <int id="numSegmentsX">1</int>
+        <int id="numSegmentsY">1</int>
+        <bool id="dontOffsetWithParallax">0</bool>
+        <bool id="textureSubSampling">0</bool>
+        <colour id="levelsBrightnesses">0 127 255 255</colour>
+        <bool id="forceToBackground">0</bool>
+        <bool id="platformSpecificTexture">0</bool>
+        <bool id="hideOnHighGraphicsQuality">0</bool>
+        <bool id="showOnlyOnLowGraphicsQuality">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </levelGraphic>
 </level>
