@@ -3543,10 +3543,10 @@
         <bool id="hidden">0</bool>
     </levelGraphic>
     <levelParticle>
-        <vector2 id="position">11.4102 1.30121</vector2>
+        <vector2 id="position">11.1856 1.27536</vector2>
         <vector2 id="size">1 1</vector2>
         <float id="depth">0.0958251</float>
-        <float id="parallax">-0.02</float>
+        <float id="parallax">-0</float>
         <float id="angle">-28.2857</float>
         <bool id="mirrorX">0</bool>
         <bool id="allowAnimationOffsetsToAlterCCM">1</bool>
@@ -3562,10 +3562,10 @@
         <bool id="hidden">0</bool>
     </levelParticle>
     <levelParticle>
-        <vector2 id="position">11.4132 1.19852</vector2>
+        <vector2 id="position">11.2 1.17392</vector2>
         <vector2 id="size">1 1</vector2>
         <float id="depth">0.0958251</float>
-        <float id="parallax">-0.02</float>
+        <float id="parallax">-0.001</float>
         <float id="angle">23.1429</float>
         <bool id="mirrorX">0</bool>
         <bool id="allowAnimationOffsetsToAlterCCM">1</bool>
