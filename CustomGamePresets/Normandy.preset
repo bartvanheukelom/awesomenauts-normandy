@@ -31,10 +31,10 @@ startingLevelTeamZero	1
 startingLevelTeamOne	1
 startingGold	150
 enableLoseGoldOnDeath	no
-xpFromDroidsMultiplier	1
-xpFromCreepsMultiplier	1
-xpFromTurretsMultiplier	1
-xpFromAwesomenautsMultiplier	1
+xpFromDroidsMultiplier	0
+xpFromCreepsMultiplier	0
+xpFromTurretsMultiplier	0
+xpFromAwesomenautsMultiplier	0
 startWithSkillsUnlocked	yes
 maxPurchasableItemsPerCategory	3
 maxPurchasableItemsTotal	12
