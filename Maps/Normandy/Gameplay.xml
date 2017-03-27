@@ -1,1385 +1,1386 @@
-<?xml version="1.0" ?>
-<level>
-    <playerStartPosition>
-        <vector2 id="position">7.39 -0.73</vector2>
-        <string id="team">TEAM_ZERO</string>
-        <string id="startPositionType">DroppodLandingArea</string>
-        <bool id="isRandomSpawnInNeutralZone">0</bool>
-        <bool id="isFirstSpawnStartPosition">1</bool>
-        <bool id="existIfArenaWallsEnabled">0</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <string id="availabilityInfluencedBy"></string>
-        <float id="respawnCollisionHeight">0</float>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </playerStartPosition>
-    <LevelConfiguration>
-        <bool id="allowProceduralLevelArt">1</bool>
-        <bool id="enableProceduralBackground">1</bool>
-        <float id="middleOfMapForMirroring">10</float>
-        <float id="dropPodMusicStartHeight">7.54</float>
-        <float id="distanceOfDeathZoneLeftOfObstacles">2</float>
-        <float id="distanceOfDeathZoneRightOfObstacles">2</float>
-        <float id="distanceOfDeathZoneBeneathObstacles">0</float>
-        <float id="distanceOfDeathZoneAboveObstacles">2</float>
-        <float id="leftCameraBoundary">2.43</float>
-        <float id="rightCameraBoundary">13.92</float>
-        <float id="topCameraBoundary">1.785</float>
-        <float id="bottomCameraBoundary">-2.595</float>
-        <float id="leftCameraBoundaryArenaMode">7.334</float>
-        <float id="rightCameraBoundaryArenaMode">12</float>
-        <float id="topCameraBoundaryArenaMode">0.368</float>
-        <float id="bottomCameraBoundaryArenaMode">-1.7</float>
-        <vector2 id="miniMapWorldCentre">9.65 0.17</vector2>
-        <float id="miniMapWorldWidth">7.12</float>
-        <vector2 id="miniMapWorldCentreArenaMode">9.65 0.3</vector2>
-        <float id="miniMapWorldWidthArenaMode">10</float>
-        <float id="blurStrength1_startParallax">0.01</float>
-        <float id="blurStrength1_startDepth">-100000</float>
-        <float id="blurStrength2_startParallax">0.299</float>
-        <float id="blurStrength2_startDepth">-100000</float>
-        <float id="blurStrength3_startParallax">100000</float>
-        <float id="blurStrength3_startDepth">-100000</float>
-        <float id="waterHeight">-0.874</float>
-        <string id="waterGradientOverlayTexture">PostEffect_Water_GradientOverlay_Proc</string>
-        <string id="waterWavesTexture">PostEffect_Water_Waves</string>
-        <string id="waterWavesOutlineTexture">PostEffect_Water_WavesOutlineStraight</string>
-        <string id="extraAIToAddToPlayerCharacters"></string>
-    </LevelConfiguration>
-    <turret>
-        <vector2 id="startPosition">11.5024 0.7603</vector2>
-        <vector2 id="endPosition">11.5024 0.7603</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="team">TEAM_ONE</string>
-        <string id="turretTypeIndex">1</string>
-        <string id="turretOrientation"></string>
-        <bool id="enterableByOwnTeam">1</bool>
-        <bool id="enterableByOtherTeams">0</bool>
-        <string id="ignoreCollisionOfType"></string>
-        <vector2 id="size">0.2 0.4</vector2>
-        <vector2 id="collision offset">0 0</vector2>
-        <bool id="removeGameFromMatchmakingIfHealthIsLow">0</bool>
-        <string id="influenceOnDeath">BACKTURRET</string>
-        <bool id="enemyCanReachBaseIfDestroyed">1</bool>
-        <uint id="xpRewardWhenDestroyed">0</uint>
-        <bool id="useDefaultAwarenessAreas">1</bool>
-        <vector2 id="awarenessOffset">0 0</vector2>
-        <vector2 id="awarenessArea">0 0</vector2>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </turret>
-    <shop>
-        <vector2 id="position">7.395 -0.66</vector2>
-        <vector2 id="size">0.95 0.34</vector2>
-        <string id="team">TEAM_ZERO</string>
-        <bool id="hasStaticGraphics">0</bool>
-        <bool id="hasPopupGraphics">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </shop>
-    <shop>
-        <vector2 id="position">13.585 0.75</vector2>
-        <vector2 id="size">0.73 0.36</vector2>
-        <string id="team">TEAM_ONE</string>
-        <bool id="hasStaticGraphics">0</bool>
-        <bool id="hasPopupGraphics">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </shop>
-    <base>
-        <vector2 id="startPosition">12.29 0.72</vector2>
-        <vector2 id="endPosition">12.29 0.72</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="team">TEAM_ONE</string>
-        <string id="turretTypeIndex">8</string>
-        <bool id="enterableByOwnTeam">1</bool>
-        <bool id="enterableByOtherTeams">0</bool>
-        <vector2 id="size">0.2 0.47</vector2>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </base>
-    <obstacle>
-        <vector2 id="startPosition">13.7327 1.3861</vector2>
-        <vector2 id="endPosition">13.7327 1.3861</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">3.6606 0.9369</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">16.66 1.18</vector2>
-        <vector2 id="endPosition">16.66 1.18</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">5.46 1.64</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <base>
-        <vector2 id="startPosition">4.42 -0.23</vector2>
-        <vector2 id="endPosition">4.42 -0.23</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="team">TEAM_ZERO</string>
-        <string id="turretTypeIndex">8</string>
-        <bool id="enterableByOwnTeam">1</bool>
-        <bool id="enterableByOtherTeams">0</bool>
-        <vector2 id="size">0.2 0.47</vector2>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </base>
-    <affectArea>
-        <vector2 id="startPosition">13.585 0.745</vector2>
-        <vector2 id="endPosition">13.585 0.745</vector2>
-        <float id="automaticMovementDuration">1</float>
-        <string id="positionInfluencedBy"></string>
-        <string id="activationInfluencedBy"></string>
-        <vector2 id="size">0.73 0.39</vector2>
-        <bool id="affectTeamZero">0</bool>
-        <bool id="affectTeamOne">1</bool>
-        <bool id="affectTeamNone">0</bool>
-        <float id="timeBetweenTicks">0.2</float>
-        <bool id="cleanseCharacter">1</bool>
-        <float id="healthPerTick">100</float>
-        <float id="stunDurationPerTick">0</float>
-        <float id="blindDurationPerTick">0</float>
-        <float id="silenceDurationPerTick">0</float>
-        <float id="slowFactor">1</float>
-        <float id="slowDurationPerTick">0</float>
-        <float id="snareDurationPerTick">0</float>
-        <float id="speedupDuration">0</float>
-        <float id="damageBuffDuration">0</float>
-        <float id="damageDebuffDuration">0</float>
-        <int id="solarPerTick">0</int>
-        <vector2 id="knockback">0 0</vector2>
-        <float id="characterDirectionKnockback">0</float>
-        <bool id="isAdditiveKnockback">0</bool>
-        <bool id="disableJumpDuringKnockback">0</bool>
-        <float id="pullCharacterTowardsCentreDuration">0</float>
-        <float id="pullCharacterSpeed">1</float>
-        <string id="customUpgradeToGive"></string>
-        <float id="customUpgradeDuration">1</float>
-        <bool id="hasGlowGraphics">1</bool>
-        <string id="glowTextureName">bb_gradient_18_alpha_white</string>
-        <bool id="allowRecolourGlow">1</bool>
-        <float id="glowGraphicOpacity">0.2</float>
-        <bool id="hasDefaultParticles">1</bool>
-        <string id="customParticleName"></string>
-        <float id="customParticleEmittanceMultiplier">1</float>
-        <bool id="playHealSound">1</bool>
-        <bool id="isShopHealingArea">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </affectArea>
-    <playerStartPosition>
-        <vector2 id="position">13.31 0.69</vector2>
-        <string id="team">TEAM_ONE</string>
-        <string id="startPositionType">DroppodLandingArea</string>
-        <bool id="isRandomSpawnInNeutralZone">0</bool>
-        <bool id="isFirstSpawnStartPosition">1</bool>
-        <bool id="existIfArenaWallsEnabled">0</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <string id="availabilityInfluencedBy"></string>
-        <float id="respawnCollisionHeight">0</float>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </playerStartPosition>
-    <obstacle>
-        <vector2 id="startPosition">11.46 0.08</vector2>
-        <vector2 id="endPosition">11.46 0.08</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.44 0.98</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">11.79 0.54</vector2>
-        <vector2 id="endPosition">11.79 0.54</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.22 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">11.28 -0.54</vector2>
-        <vector2 id="endPosition">11.28 -0.54</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name">BACKTURRET</string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.08 0.26</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams">TEAM_ONE</string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">1</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">10.795 -0.795</vector2>
-        <vector2 id="endPosition">10.795 -0.795</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">1.49 0.09</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">11.435 -0.755</vector2>
-        <vector2 id="endPosition">11.435 -0.755</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.49 0.17</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">11.235 -0.755</vector2>
-        <vector2 id="endPosition">11.235 -0.755</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.89 0.09</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">10.355 -1.125</vector2>
-        <vector2 id="endPosition">10.355 -1.125</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">6.99 0.47</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <turret>
-        <vector2 id="startPosition">10.27 -0.55</vector2>
-        <vector2 id="endPosition">10.27 -0.55</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="team">TEAM_ONE</string>
-        <string id="turretTypeIndex">1</string>
-        <string id="turretOrientation"></string>
-        <bool id="enterableByOwnTeam">1</bool>
-        <bool id="enterableByOtherTeams">0</bool>
-        <string id="ignoreCollisionOfType"></string>
-        <vector2 id="size">0.2 0.4</vector2>
-        <vector2 id="collision offset">0 0</vector2>
-        <bool id="removeGameFromMatchmakingIfHealthIsLow">0</bool>
-        <string id="influenceOnDeath"></string>
-        <bool id="enemyCanReachBaseIfDestroyed">1</bool>
-        <uint id="xpRewardWhenDestroyed">0</uint>
-        <bool id="useDefaultAwarenessAreas">1</bool>
-        <vector2 id="awarenessOffset">0 0</vector2>
-        <vector2 id="awarenessArea">0 0</vector2>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </turret>
-    <obstacle>
-        <vector2 id="startPosition">10.72 -0.41</vector2>
-        <vector2 id="endPosition">10.72 -0.41</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.22 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">11.0973 -0.0937</vector2>
-        <vector2 id="endPosition">11.0973 -0.0937</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.22 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">10.71 0.11</vector2>
-        <vector2 id="endPosition">10.71 0.11</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.22 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">11.1063 0.3459</vector2>
-        <vector2 id="endPosition">11.1063 0.3459</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.22 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <affectArea>
-        <vector2 id="startPosition">7.385 -0.745</vector2>
-        <vector2 id="endPosition">7.385 -0.745</vector2>
-        <float id="automaticMovementDuration">1</float>
-        <string id="positionInfluencedBy"></string>
-        <string id="activationInfluencedBy"></string>
-        <vector2 id="size">1.03 0.15</vector2>
-        <bool id="affectTeamZero">1</bool>
-        <bool id="affectTeamOne">0</bool>
-        <bool id="affectTeamNone">0</bool>
-        <float id="timeBetweenTicks">0.5</float>
-        <bool id="cleanseCharacter">1</bool>
-        <float id="healthPerTick">50</float>
-        <float id="stunDurationPerTick">0</float>
-        <float id="blindDurationPerTick">0</float>
-        <float id="silenceDurationPerTick">0</float>
-        <float id="slowFactor">1</float>
-        <float id="slowDurationPerTick">0</float>
-        <float id="snareDurationPerTick">0</float>
-        <float id="speedupDuration">0</float>
-        <float id="damageBuffDuration">0</float>
-        <float id="damageDebuffDuration">0</float>
-        <int id="solarPerTick">0</int>
-        <vector2 id="knockback">0 0</vector2>
-        <float id="characterDirectionKnockback">0</float>
-        <bool id="isAdditiveKnockback">0</bool>
-        <bool id="disableJumpDuringKnockback">0</bool>
-        <float id="pullCharacterTowardsCentreDuration">0</float>
-        <float id="pullCharacterSpeed">1</float>
-        <string id="customUpgradeToGive"></string>
-        <float id="customUpgradeDuration">1</float>
-        <bool id="hasGlowGraphics">0</bool>
-        <string id="glowTextureName">bb_gradient_18_alpha_white</string>
-        <bool id="allowRecolourGlow">1</bool>
-        <float id="glowGraphicOpacity">0.2</float>
-        <bool id="hasDefaultParticles">1</bool>
-        <string id="customParticleName"></string>
-        <float id="customParticleEmittanceMultiplier">1</float>
-        <bool id="playHealSound">1</bool>
-        <bool id="isShopHealingArea">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </affectArea>
-    <obstacle>
-        <vector2 id="startPosition">10.075 -0.855</vector2>
-        <vector2 id="endPosition">10.075 -0.855</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">1.49 0.09</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">9.375 -0.895</vector2>
-        <vector2 id="endPosition">9.375 -0.895</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">1.49 0.09</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">7.385 -0.865</vector2>
-        <vector2 id="endPosition">7.385 -0.865</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">1.05 0.09</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">11.6191 2.1901</vector2>
-        <vector2 id="endPosition">11.6191 2.1901</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.753 2.299</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <playerStartPosition>
-        <vector2 id="position">7.42 3.61</vector2>
-        <string id="team">TEAM_ZERO</string>
-        <string id="startPositionType">Droppod</string>
-        <bool id="isRandomSpawnInNeutralZone">0</bool>
-        <bool id="isFirstSpawnStartPosition">1</bool>
-        <bool id="existIfArenaWallsEnabled">0</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <string id="availabilityInfluencedBy"></string>
-        <float id="respawnCollisionHeight">-0.81</float>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </playerStartPosition>
-    <obstacle>
-        <vector2 id="startPosition">12.045 -1.305</vector2>
-        <vector2 id="endPosition">12.045 -1.305</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">2.61 0.97</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <namedArea>
-        <vector2 id="startPosition">7.275 -0.705</vector2>
-        <vector2 id="endPosition">7.275 -0.705</vector2>
-        <float id="animationDuration">1</float>
-        <vector2 id="size">0.05 0.05</vector2>
-        <string id="name">TELEPORTPOSITIONZERO</string>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </namedArea>
-    <namedArea>
-        <vector2 id="startPosition">13.305 0.715</vector2>
-        <vector2 id="endPosition">13.305 0.715</vector2>
-        <float id="animationDuration">1</float>
-        <vector2 id="size">0.05 0.05</vector2>
-        <string id="name">TELEPORTPOSITIONONE</string>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </namedArea>
-    <jumpPad>
-        <vector2 id="position">11.74 -0.76</vector2>
-        <float id="jumpForce">2.8</float>
-        <float id="rotation">0</float>
-        <string id="team">TEAM_NONE</string>
-        <bool id="pushTeamOnly">0</bool>
-        <bool id="hasGraphics">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </jumpPad>
-    <obstacle>
-        <vector2 id="startPosition">12.04 -0.765</vector2>
-        <vector2 id="endPosition">12.04 -0.765</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.28 0.19</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">11.79 -0.7</vector2>
-        <vector2 id="endPosition">11.79 -0.7</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.22 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <pickup>
-        <vector2 id="position">10.58 -0.71</vector2>
-        <string id="pickupType">GoldBig</string>
-        <bool id="isExtraSolarPickup">0</bool>
-        <bool id="isExtraHealthPickup">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </pickup>
-    <pickup>
-        <vector2 id="position">10.47 -0.71</vector2>
-        <string id="pickupType">GoldSmall</string>
-        <bool id="isExtraSolarPickup">0</bool>
-        <bool id="isExtraHealthPickup">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </pickup>
-    <pickup>
-        <vector2 id="position">10.7 -0.71</vector2>
-        <string id="pickupType">GoldSmall</string>
-        <bool id="isExtraSolarPickup">0</bool>
-        <bool id="isExtraHealthPickup">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </pickup>
-    <pickup>
-        <vector2 id="position">10.9 -0.66</vector2>
-        <string id="pickupType">GoldSmall</string>
-        <bool id="isExtraSolarPickup">0</bool>
-        <bool id="isExtraHealthPickup">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </pickup>
-    <pickup>
-        <vector2 id="position">9.27 -0.8</vector2>
-        <string id="pickupType">GoldBig</string>
-        <bool id="isExtraSolarPickup">0</bool>
-        <bool id="isExtraHealthPickup">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </pickup>
-    <pickup>
-        <vector2 id="position">10.01 -0.77</vector2>
-        <string id="pickupType">GoldSmall</string>
-        <bool id="isExtraSolarPickup">0</bool>
-        <bool id="isExtraHealthPickup">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </pickup>
-    <pickup>
-        <vector2 id="position">9.56 -0.76</vector2>
-        <string id="pickupType">GoldSmall</string>
-        <bool id="isExtraSolarPickup">0</bool>
-        <bool id="isExtraHealthPickup">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </pickup>
-    <pickup>
-        <vector2 id="position">11.07 -0.66</vector2>
-        <string id="pickupType">GoldSmall</string>
-        <bool id="isExtraSolarPickup">0</bool>
-        <bool id="isExtraHealthPickup">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </pickup>
-    <pickup>
-        <vector2 id="position">9.02 -0.8</vector2>
-        <string id="pickupType">GoldSmall</string>
-        <bool id="isExtraSolarPickup">0</bool>
-        <bool id="isExtraHealthPickup">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </pickup>
-    <pickup>
-        <vector2 id="position">9.81 -0.76</vector2>
-        <string id="pickupType">GoldBig</string>
-        <bool id="isExtraSolarPickup">0</bool>
-        <bool id="isExtraHealthPickup">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </pickup>
-    <pickup>
-        <vector2 id="position">8.73 -0.79</vector2>
-        <string id="pickupType">GoldBig</string>
-        <bool id="isExtraSolarPickup">0</bool>
-        <bool id="isExtraHealthPickup">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </pickup>
-    <jumpPad>
-        <vector2 id="position">11.85 -0.76</vector2>
-        <float id="jumpForce">2.8</float>
-        <float id="rotation">0</float>
-        <string id="team">TEAM_NONE</string>
-        <bool id="pushTeamOnly">0</bool>
-        <bool id="hasGraphics">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </jumpPad>
-    <obstacle>
-        <vector2 id="startPosition">9.705 -0.74</vector2>
-        <vector2 id="endPosition">9.705 -0.74</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.05 0.18</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">9.925 -0.83</vector2>
-        <vector2 id="endPosition">9.925 -0.83</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.05 0.14</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">9.435 -0.84</vector2>
-        <vector2 id="endPosition">9.435 -0.84</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.05 0.14</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">9.175 -0.88</vector2>
-        <vector2 id="endPosition">9.175 -0.88</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.05 0.14</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">8.875 -0.88</vector2>
-        <vector2 id="endPosition">8.875 -0.88</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.05 0.14</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">15.59 -0.055</vector2>
-        <vector2 id="endPosition">15.59 -0.055</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">4.48 1.25</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.74 -1.31</vector2>
-        <vector2 id="endPosition">12.74 -1.31</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">1.22 1.28</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">15.735 -1.095</vector2>
-        <vector2 id="endPosition">15.735 -1.095</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">4.77 1.67</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.345 -0.3325</vector2>
-        <vector2 id="endPosition">12.345 -0.3325</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.43 0.145</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">13.105 -0.34</vector2>
-        <vector2 id="endPosition">13.105 -0.34</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.61 0.72</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.025 0.0825</vector2>
-        <vector2 id="endPosition">12.025 0.0825</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.25 0.975</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.355 -0.2925</vector2>
-        <vector2 id="endPosition">12.355 -0.2925</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.41 0.225</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.25 0.485</vector2>
-        <vector2 id="endPosition">12.25 0.485</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.19 0.17</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.69 0.155</vector2>
-        <vector2 id="endPosition">12.69 0.155</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.24 0.17</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">13.0775 0.0825</vector2>
-        <vector2 id="endPosition">13.0775 0.0825</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.545 0.975</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.465 0.155</vector2>
-        <vector2 id="endPosition">12.465 0.155</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.21 0.17</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.445 0.4825</vector2>
-        <vector2 id="endPosition">12.445 0.4825</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.2 0.175</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.67 0.54</vector2>
-        <vector2 id="endPosition">12.67 0.54</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.26 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.68 0.39</vector2>
-        <vector2 id="endPosition">12.68 0.39</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.26 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.68 -0.21</vector2>
-        <vector2 id="endPosition">12.68 -0.21</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.22 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.68 -0.41</vector2>
-        <vector2 id="endPosition">12.68 -0.41</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.22 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.26 0.07</vector2>
-        <vector2 id="endPosition">12.26 0.07</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.16 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <hideAndSeekArea>
-        <vector2 id="position">12.49 0.085</vector2>
-        <vector2 id="size">0.84 0.89</vector2>
-        <string id="name">typeIDHere</string>
-        <string id="influencedByName"></string>
-        <bool id="hasGraphics">1</bool>
-        <float id="transparencyWhenActivate">0.3</float>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </hideAndSeekArea>
-    <hideAndSeekArea>
-        <vector2 id="position">12.43 -0.505</vector2>
-        <vector2 id="size">0.96 0.37</vector2>
-        <string id="name">typeIDHere</string>
-        <string id="influencedByName"></string>
-        <bool id="hasGraphics">1</bool>
-        <float id="transparencyWhenActivate">0.3</float>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </hideAndSeekArea>
-    <obstacle>
-        <vector2 id="startPosition">12.93 0.74</vector2>
-        <vector2 id="endPosition">12.93 0.74</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.08 0.36</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams">TEAM_ONE</string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">12.26 0.21</vector2>
-        <vector2 id="endPosition">12.26 0.21</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.16 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">1</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">10.25 -0.3</vector2>
-        <vector2 id="endPosition">10.25 -0.3</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.26 0.2</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">11.48 1.02</vector2>
-        <vector2 id="endPosition">11.48 1.02</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.26 0.2</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">10.26 -0.3</vector2>
-        <vector2 id="endPosition">10.26 -0.3</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.32 0.08</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">4.215 -0.465</vector2>
-        <vector2 id="endPosition">4.215 -0.465</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">3.55 2.09</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">11.1444 1.2161</vector2>
-        <vector2 id="endPosition">11.1444 1.2161</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.22 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">0</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">11.1307 1.3686</vector2>
-        <vector2 id="endPosition">11.1307 1.3686</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.239 0.0604</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">0</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">11.1444 1.5075</vector2>
-        <vector2 id="endPosition">11.1444 1.5075</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.22 0.06</vector2>
-        <bool id="hasBottomCollision">0</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">0</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-    <obstacle>
-        <vector2 id="startPosition">11.2874 1.4871</vector2>
-        <vector2 id="endPosition">11.2874 1.4871</vector2>
-        <float id="animationDuration">1</float>
-        <string id="name"></string>
-        <string id="textureName"></string>
-        <vector2 id="size">0.2064 0.6495</vector2>
-        <bool id="hasBottomCollision">1</bool>
-        <string id="enterableByTeams"></string>
-        <string id="ignoreCollisionOfType"></string>
-        <bool id="generateGlassPlatformVisual">1</bool>
-        <float id="glassPlatformShrinkAmount">0</float>
-        <bool id="existIfArenaWallsEnabled">1</bool>
-        <bool id="existIfArenaWallsDisabled">1</bool>
-        <bool id="disableCollisionWhenButtonActive">0</bool>
-        <bool id="canGenerateProceduralLevelArt">0</bool>
-        <bool id="frozen">0</bool>
-        <bool id="hidden">0</bool>
-    </obstacle>
-</level>
+<?xml version="1.0" ?>
+<level>
+    <playerStartPosition>
+        <vector2 id="position">7.39 -0.73</vector2>
+        <string id="team">TEAM_ZERO</string>
+        <string id="startPositionType">DroppodLandingArea</string>
+        <bool id="isRandomSpawnInNeutralZone">0</bool>
+        <bool id="isFirstSpawnStartPosition">1</bool>
+        <bool id="existIfArenaWallsEnabled">0</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <string id="availabilityInfluencedBy"></string>
+        <float id="respawnCollisionHeight">0</float>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </playerStartPosition>
+    <LevelConfiguration>
+        <bool id="allowProceduralLevelArt">1</bool>
+        <bool id="enableProceduralBackground">1</bool>
+        <float id="middleOfMapForMirroring">10</float>
+        <float id="dropPodMusicStartHeight">7.54</float>
+        <float id="distanceOfDeathZoneLeftOfObstacles">2</float>
+        <float id="distanceOfDeathZoneRightOfObstacles">2</float>
+        <float id="distanceOfDeathZoneBeneathObstacles">0</float>
+        <float id="distanceOfDeathZoneAboveObstacles">2</float>
+        <float id="leftCameraBoundary">2.43</float>
+        <float id="rightCameraBoundary">13.92</float>
+        <float id="topCameraBoundary">1.785</float>
+        <float id="bottomCameraBoundary">-2.595</float>
+        <float id="leftCameraBoundaryArenaMode">7.334</float>
+        <float id="rightCameraBoundaryArenaMode">12</float>
+        <float id="topCameraBoundaryArenaMode">0.368</float>
+        <float id="bottomCameraBoundaryArenaMode">-1.7</float>
+        <vector2 id="miniMapWorldCentre">9.65 0.17</vector2>
+        <float id="miniMapWorldWidth">7.12</float>
+        <vector2 id="miniMapWorldCentreArenaMode">9.65 0.3</vector2>
+        <float id="miniMapWorldWidthArenaMode">10</float>
+        <float id="blurStrength1_startParallax">0.01</float>
+        <float id="blurStrength1_startDepth">-100000</float>
+        <float id="blurStrength2_startParallax">0.299</float>
+        <float id="blurStrength2_startDepth">-100000</float>
+        <float id="blurStrength3_startParallax">100000</float>
+        <float id="blurStrength3_startDepth">-100000</float>
+        <float id="waterHeight">-0.874</float>
+        <string id="waterGradientOverlayTexture">PostEffect_Water_GradientOverlay_Proc</string>
+        <string id="waterWavesTexture">PostEffect_Water_Waves</string>
+        <string id="waterWavesOutlineTexture">PostEffect_Water_WavesOutlineStraight</string>
+        <string id="extraAIToAddToPlayerCharacters"></string>
+    </LevelConfiguration>
+    <turret>
+        <vector2 id="startPosition">11.5024 0.7603</vector2>
+        <vector2 id="endPosition">11.5024 0.7603</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="team">TEAM_ONE</string>
+        <string id="turretTypeIndex">1</string>
+        <string id="turretOrientation"></string>
+        <bool id="enterableByOwnTeam">1</bool>
+        <bool id="enterableByOtherTeams">0</bool>
+        <string id="ignoreCollisionOfType"></string>
+        <vector2 id="size">0.2 0.4</vector2>
+        <vector2 id="collision offset">0 0</vector2>
+        <bool id="removeGameFromMatchmakingIfHealthIsLow">0</bool>
+        <string id="influenceOnDeath">BACKTURRET</string>
+        <bool id="enemyCanReachBaseIfDestroyed">1</bool>
+        <uint id="xpRewardWhenDestroyed">0</uint>
+        <bool id="useDefaultAwarenessAreas">1</bool>
+        <vector2 id="awarenessOffset">0 0</vector2>
+        <vector2 id="awarenessArea">0 0</vector2>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </turret>
+    <shop>
+        <vector2 id="position">7.395 -0.66</vector2>
+        <vector2 id="size">0.95 0.34</vector2>
+        <string id="team">TEAM_ZERO</string>
+        <bool id="hasStaticGraphics">0</bool>
+        <bool id="hasPopupGraphics">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </shop>
+    <shop>
+        <vector2 id="position">13.585 0.75</vector2>
+        <vector2 id="size">0.73 0.36</vector2>
+        <string id="team">TEAM_ONE</string>
+        <bool id="hasStaticGraphics">0</bool>
+        <bool id="hasPopupGraphics">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </shop>
+    <base>
+        <vector2 id="startPosition">12.29 0.72</vector2>
+        <vector2 id="endPosition">12.29 0.72</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="team">TEAM_ONE</string>
+        <string id="turretTypeIndex">8</string>
+        <bool id="enterableByOwnTeam">1</bool>
+        <bool id="enterableByOtherTeams">0</bool>
+        <vector2 id="size">0.2 0.47</vector2>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </base>
+    <obstacle>
+        <vector2 id="startPosition">13.7327 1.3861</vector2>
+        <vector2 id="endPosition">13.7327 1.3861</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">3.6606 0.9369</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">16.66 1.18</vector2>
+        <vector2 id="endPosition">16.66 1.18</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">5.46 1.64</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <base>
+        <vector2 id="startPosition">4.42 -0.23</vector2>
+        <vector2 id="endPosition">4.42 -0.23</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="team">TEAM_ZERO</string>
+        <string id="turretTypeIndex">8</string>
+        <bool id="enterableByOwnTeam">1</bool>
+        <bool id="enterableByOtherTeams">0</bool>
+        <vector2 id="size">0.2 0.47</vector2>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </base>
+    <affectArea>
+        <vector2 id="startPosition">13.585 0.745</vector2>
+        <vector2 id="endPosition">13.585 0.745</vector2>
+        <float id="automaticMovementDuration">1</float>
+        <string id="positionInfluencedBy"></string>
+        <string id="activationInfluencedBy"></string>
+        <vector2 id="size">0.73 0.39</vector2>
+        <bool id="affectTeamZero">0</bool>
+        <bool id="affectTeamOne">1</bool>
+        <bool id="affectTeamNone">0</bool>
+        <float id="timeBetweenTicks">0.2</float>
+        <bool id="cleanseCharacter">1</bool>
+        <float id="healthPerTick">100</float>
+        <float id="stunDurationPerTick">0</float>
+        <float id="blindDurationPerTick">0</float>
+        <float id="silenceDurationPerTick">0</float>
+        <float id="slowFactor">1</float>
+        <float id="slowDurationPerTick">0</float>
+        <float id="snareDurationPerTick">0</float>
+        <float id="speedupDuration">0</float>
+        <float id="damageBuffDuration">0</float>
+        <float id="damageDebuffDuration">0</float>
+        <int id="solarPerTick">0</int>
+        <vector2 id="knockback">0 0</vector2>
+        <float id="characterDirectionKnockback">0</float>
+        <bool id="isAdditiveKnockback">0</bool>
+        <bool id="disableJumpDuringKnockback">0</bool>
+        <float id="pullCharacterTowardsCentreDuration">0</float>
+        <float id="pullCharacterSpeed">1</float>
+        <string id="customUpgradeToGive"></string>
+        <float id="customUpgradeDuration">1</float>
+        <bool id="hasGlowGraphics">1</bool>
+        <string id="glowTextureName">bb_gradient_18_alpha_white</string>
+        <bool id="allowRecolourGlow">1</bool>
+        <float id="glowGraphicOpacity">0.2</float>
+        <bool id="hasDefaultParticles">1</bool>
+        <string id="customParticleName"></string>
+        <float id="customParticleEmittanceMultiplier">1</float>
+        <bool id="playHealSound">1</bool>
+        <bool id="isShopHealingArea">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </affectArea>
+    <playerStartPosition>
+        <vector2 id="position">13.6 0.69</vector2>
+        <string id="team">TEAM_ONE</string>
+        <string id="startPositionType">DroppodLandingArea</string>
+        <bool id="isRandomSpawnInNeutralZone">0</bool>
+        <bool id="isFirstSpawnStartPosition">1</bool>
+        <bool id="existIfArenaWallsEnabled">0</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <string id="availabilityInfluencedBy"></string>
+        <float id="respawnCollisionHeight">0</float>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </playerStartPosition>
+    <obstacle>
+        <vector2 id="startPosition">11.46 0.08</vector2>
+        <vector2 id="endPosition">11.46 0.08</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.44 0.98</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">11.79 0.54</vector2>
+        <vector2 id="endPosition">11.79 0.54</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.22 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">11.28 -0.54</vector2>
+        <vector2 id="endPosition">11.28 -0.54</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name">BACKTURRET</string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.08 0.26</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams">TEAM_ONE</string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">1</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">1</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">10.795 -0.795</vector2>
+        <vector2 id="endPosition">10.795 -0.795</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">1.49 0.09</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">11.435 -0.755</vector2>
+        <vector2 id="endPosition">11.435 -0.755</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.49 0.17</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">11.235 -0.755</vector2>
+        <vector2 id="endPosition">11.235 -0.755</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.89 0.09</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">10.355 -1.125</vector2>
+        <vector2 id="endPosition">10.355 -1.125</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">6.99 0.47</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <turret>
+        <vector2 id="startPosition">10.27 -0.55</vector2>
+        <vector2 id="endPosition">10.27 -0.55</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="team">TEAM_ONE</string>
+        <string id="turretTypeIndex">1</string>
+        <string id="turretOrientation"></string>
+        <bool id="enterableByOwnTeam">1</bool>
+        <bool id="enterableByOtherTeams">0</bool>
+        <string id="ignoreCollisionOfType"></string>
+        <vector2 id="size">0.2 0.4</vector2>
+        <vector2 id="collision offset">0 0</vector2>
+        <bool id="removeGameFromMatchmakingIfHealthIsLow">0</bool>
+        <string id="influenceOnDeath"></string>
+        <bool id="enemyCanReachBaseIfDestroyed">1</bool>
+        <uint id="xpRewardWhenDestroyed">0</uint>
+        <bool id="useDefaultAwarenessAreas">1</bool>
+        <vector2 id="awarenessOffset">0 0</vector2>
+        <vector2 id="awarenessArea">0 0</vector2>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </turret>
+    <obstacle>
+        <vector2 id="startPosition">10.72 -0.41</vector2>
+        <vector2 id="endPosition">10.72 -0.41</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.22 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">11.0973 -0.0937</vector2>
+        <vector2 id="endPosition">11.0973 -0.0937</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.22 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">10.71 0.11</vector2>
+        <vector2 id="endPosition">10.71 0.11</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.22 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">11.1063 0.3459</vector2>
+        <vector2 id="endPosition">11.1063 0.3459</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.22 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <affectArea>
+        <vector2 id="startPosition">7.385 -0.745</vector2>
+        <vector2 id="endPosition">7.385 -0.745</vector2>
+        <float id="automaticMovementDuration">1</float>
+        <string id="positionInfluencedBy"></string>
+        <string id="activationInfluencedBy"></string>
+        <vector2 id="size">1.03 0.15</vector2>
+        <bool id="affectTeamZero">1</bool>
+        <bool id="affectTeamOne">0</bool>
+        <bool id="affectTeamNone">0</bool>
+        <float id="timeBetweenTicks">0.5</float>
+        <bool id="cleanseCharacter">1</bool>
+        <float id="healthPerTick">50</float>
+        <float id="stunDurationPerTick">0</float>
+        <float id="blindDurationPerTick">0</float>
+        <float id="silenceDurationPerTick">0</float>
+        <float id="slowFactor">1</float>
+        <float id="slowDurationPerTick">0</float>
+        <float id="snareDurationPerTick">0</float>
+        <float id="speedupDuration">0</float>
+        <float id="damageBuffDuration">0</float>
+        <float id="damageDebuffDuration">0</float>
+        <int id="solarPerTick">0</int>
+        <vector2 id="knockback">0 0</vector2>
+        <float id="characterDirectionKnockback">0</float>
+        <bool id="isAdditiveKnockback">0</bool>
+        <bool id="disableJumpDuringKnockback">0</bool>
+        <float id="pullCharacterTowardsCentreDuration">0</float>
+        <float id="pullCharacterSpeed">1</float>
+        <string id="customUpgradeToGive"></string>
+        <float id="customUpgradeDuration">1</float>
+        <bool id="hasGlowGraphics">0</bool>
+        <string id="glowTextureName">bb_gradient_18_alpha_white</string>
+        <bool id="allowRecolourGlow">1</bool>
+        <float id="glowGraphicOpacity">0.2</float>
+        <bool id="hasDefaultParticles">1</bool>
+        <string id="customParticleName"></string>
+        <float id="customParticleEmittanceMultiplier">1</float>
+        <bool id="playHealSound">1</bool>
+        <bool id="isShopHealingArea">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </affectArea>
+    <obstacle>
+        <vector2 id="startPosition">10.075 -0.855</vector2>
+        <vector2 id="endPosition">10.075 -0.855</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">1.49 0.09</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">9.375 -0.895</vector2>
+        <vector2 id="endPosition">9.375 -0.895</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">1.49 0.09</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">7.385 -0.865</vector2>
+        <vector2 id="endPosition">7.385 -0.865</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">1.05 0.09</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">11.6191 2.1901</vector2>
+        <vector2 id="endPosition">11.6191 2.1901</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.753 2.299</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <playerStartPosition>
+        <vector2 id="position">7.42 3.61</vector2>
+        <string id="team">TEAM_ZERO</string>
+        <string id="startPositionType">Droppod</string>
+        <bool id="isRandomSpawnInNeutralZone">0</bool>
+        <bool id="isFirstSpawnStartPosition">1</bool>
+        <bool id="existIfArenaWallsEnabled">0</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <string id="availabilityInfluencedBy"></string>
+        <float id="respawnCollisionHeight">-0.81</float>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </playerStartPosition>
+    <obstacle>
+        <vector2 id="startPosition">12.045 -1.305</vector2>
+        <vector2 id="endPosition">12.045 -1.305</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">2.61 0.97</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <namedArea>
+        <vector2 id="startPosition">7.275 -0.705</vector2>
+        <vector2 id="endPosition">7.275 -0.705</vector2>
+        <float id="animationDuration">1</float>
+        <vector2 id="size">0.05 0.05</vector2>
+        <string id="name">TELEPORTPOSITIONZERO</string>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </namedArea>
+    <namedArea>
+        <vector2 id="startPosition">13.305 0.715</vector2>
+        <vector2 id="endPosition">13.305 0.715</vector2>
+        <float id="animationDuration">1</float>
+        <vector2 id="size">0.05 0.05</vector2>
+        <string id="name">TELEPORTPOSITIONONE</string>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </namedArea>
+    <jumpPad>
+        <vector2 id="position">11.74 -0.76</vector2>
+        <float id="jumpForce">2.8</float>
+        <float id="rotation">0</float>
+        <string id="team">TEAM_NONE</string>
+        <bool id="pushTeamOnly">0</bool>
+        <bool id="hasGraphics">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </jumpPad>
+    <obstacle>
+        <vector2 id="startPosition">12.04 -0.765</vector2>
+        <vector2 id="endPosition">12.04 -0.765</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.28 0.19</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">11.79 -0.7</vector2>
+        <vector2 id="endPosition">11.79 -0.7</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.22 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <pickup>
+        <vector2 id="position">9.27 -0.8</vector2>
+        <string id="pickupType">GoldBig</string>
+        <bool id="isExtraSolarPickup">0</bool>
+        <bool id="isExtraHealthPickup">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </pickup>
+    <pickup>
+        <vector2 id="position">10.01 -0.77</vector2>
+        <string id="pickupType">GoldSmall</string>
+        <bool id="isExtraSolarPickup">0</bool>
+        <bool id="isExtraHealthPickup">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </pickup>
+    <pickup>
+        <vector2 id="position">9.56 -0.76</vector2>
+        <string id="pickupType">GoldSmall</string>
+        <bool id="isExtraSolarPickup">0</bool>
+        <bool id="isExtraHealthPickup">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </pickup>
+    <pickup>
+        <vector2 id="position">9.02 -0.8</vector2>
+        <string id="pickupType">GoldSmall</string>
+        <bool id="isExtraSolarPickup">0</bool>
+        <bool id="isExtraHealthPickup">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </pickup>
+    <pickup>
+        <vector2 id="position">9.81 -0.76</vector2>
+        <string id="pickupType">GoldBig</string>
+        <bool id="isExtraSolarPickup">0</bool>
+        <bool id="isExtraHealthPickup">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </pickup>
+    <pickup>
+        <vector2 id="position">8.73 -0.79</vector2>
+        <string id="pickupType">GoldBig</string>
+        <bool id="isExtraSolarPickup">0</bool>
+        <bool id="isExtraHealthPickup">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </pickup>
+    <jumpPad>
+        <vector2 id="position">11.85 -0.76</vector2>
+        <float id="jumpForce">2.8</float>
+        <float id="rotation">0</float>
+        <string id="team">TEAM_NONE</string>
+        <bool id="pushTeamOnly">0</bool>
+        <bool id="hasGraphics">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </jumpPad>
+    <obstacle>
+        <vector2 id="startPosition">9.705 -0.74</vector2>
+        <vector2 id="endPosition">9.705 -0.74</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.05 0.18</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">9.925 -0.83</vector2>
+        <vector2 id="endPosition">9.925 -0.83</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.05 0.14</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">9.435 -0.84</vector2>
+        <vector2 id="endPosition">9.435 -0.84</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.05 0.14</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">9.175 -0.88</vector2>
+        <vector2 id="endPosition">9.175 -0.88</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.05 0.14</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">8.875 -0.88</vector2>
+        <vector2 id="endPosition">8.875 -0.88</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.05 0.14</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">15.59 -0.055</vector2>
+        <vector2 id="endPosition">15.59 -0.055</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">4.48 1.25</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.74 -1.31</vector2>
+        <vector2 id="endPosition">12.74 -1.31</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">1.22 1.28</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">15.735 -1.095</vector2>
+        <vector2 id="endPosition">15.735 -1.095</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">4.77 1.67</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.345 -0.3325</vector2>
+        <vector2 id="endPosition">12.345 -0.3325</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.43 0.145</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">13.105 -0.34</vector2>
+        <vector2 id="endPosition">13.105 -0.34</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.61 0.72</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.025 0.0825</vector2>
+        <vector2 id="endPosition">12.025 0.0825</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.25 0.975</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.355 -0.2925</vector2>
+        <vector2 id="endPosition">12.355 -0.2925</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.41 0.225</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.25 0.485</vector2>
+        <vector2 id="endPosition">12.25 0.485</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.19 0.17</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.69 0.155</vector2>
+        <vector2 id="endPosition">12.69 0.155</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.24 0.17</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">13.0775 0.0825</vector2>
+        <vector2 id="endPosition">13.0775 0.0825</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.545 0.975</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.465 0.155</vector2>
+        <vector2 id="endPosition">12.465 0.155</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.21 0.17</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.445 0.4825</vector2>
+        <vector2 id="endPosition">12.445 0.4825</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.2 0.175</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.67 0.54</vector2>
+        <vector2 id="endPosition">12.67 0.54</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.26 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.68 0.39</vector2>
+        <vector2 id="endPosition">12.68 0.39</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.26 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.68 -0.21</vector2>
+        <vector2 id="endPosition">12.68 -0.21</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.22 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.68 -0.41</vector2>
+        <vector2 id="endPosition">12.68 -0.41</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.22 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.26 0.07</vector2>
+        <vector2 id="endPosition">12.26 0.07</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.16 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <hideAndSeekArea>
+        <vector2 id="position">12.95 -0.225</vector2>
+        <vector2 id="size">2.02 1.53</vector2>
+        <string id="name">typeIDHere</string>
+        <string id="influencedByName"></string>
+        <bool id="hasGraphics">1</bool>
+        <float id="transparencyWhenActivate">0.3</float>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </hideAndSeekArea>
+    <obstacle>
+        <vector2 id="startPosition">12.93 0.74</vector2>
+        <vector2 id="endPosition">12.93 0.74</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.08 0.36</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams">TEAM_ONE</string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">12.26 0.21</vector2>
+        <vector2 id="endPosition">12.26 0.21</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.16 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">10.25 -0.3</vector2>
+        <vector2 id="endPosition">10.25 -0.3</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.26 0.2</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">11.48 1.02</vector2>
+        <vector2 id="endPosition">11.48 1.02</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.26 0.2</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">10.26 -0.3</vector2>
+        <vector2 id="endPosition">10.26 -0.3</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.32 0.08</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">4.215 -0.465</vector2>
+        <vector2 id="endPosition">4.215 -0.465</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">3.55 2.09</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">11.13 1.15</vector2>
+        <vector2 id="endPosition">11.13 1.15</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.22 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">0</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">11.12 1.3</vector2>
+        <vector2 id="endPosition">11.12 1.3</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.24 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">0</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">11.13 1.44</vector2>
+        <vector2 id="endPosition">11.13 1.44</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.22 0.06</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">0</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <obstacle>
+        <vector2 id="startPosition">11.2874 1.4871</vector2>
+        <vector2 id="endPosition">11.2874 1.4871</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.2064 0.6495</vector2>
+        <bool id="hasBottomCollision">1</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+    <pickup>
+        <vector2 id="position">8.2002 -0.5034</vector2>
+        <string id="pickupType">Speed</string>
+        <bool id="isExtraSolarPickup">0</bool>
+        <bool id="isExtraHealthPickup">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </pickup>
+    <pickup>
+        <vector2 id="position">8.3365 -0.5016</vector2>
+        <string id="pickupType">Shield</string>
+        <bool id="isExtraSolarPickup">0</bool>
+        <bool id="isExtraHealthPickup">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </pickup>
+    <pickup>
+        <vector2 id="position">8.4701 -0.5018</vector2>
+        <string id="pickupType">Speed</string>
+        <bool id="isExtraSolarPickup">0</bool>
+        <bool id="isExtraHealthPickup">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </pickup>
+    <pickup>
+        <vector2 id="position">8.0661 -0.5022</vector2>
+        <string id="pickupType">Shield</string>
+        <bool id="isExtraSolarPickup">0</bool>
+        <bool id="isExtraHealthPickup">0</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </pickup>
+    <obstacle>
+        <vector2 id="startPosition">8.2702 -0.6073</vector2>
+        <vector2 id="endPosition">8.2702 -0.6073</vector2>
+        <float id="animationDuration">1</float>
+        <string id="name"></string>
+        <string id="textureName"></string>
+        <vector2 id="size">0.6029 0.0596</vector2>
+        <bool id="hasBottomCollision">0</bool>
+        <string id="enterableByTeams"></string>
+        <string id="ignoreCollisionOfType"></string>
+        <bool id="generateGlassPlatformVisual">1</bool>
+        <float id="glassPlatformShrinkAmount">0</float>
+        <bool id="existIfArenaWallsEnabled">1</bool>
+        <bool id="existIfArenaWallsDisabled">1</bool>
+        <bool id="disableCollisionWhenButtonActive">0</bool>
+        <bool id="canGenerateProceduralLevelArt">1</bool>
+        <bool id="frozen">0</bool>
+        <bool id="hidden">0</bool>
+    </obstacle>
+</level>

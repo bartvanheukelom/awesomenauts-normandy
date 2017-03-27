@@ -4,7 +4,7 @@ addBotsUpToTeamZero	0
 addBotsUpToTeamOne	0
 enableKillLimit	no
 killLimit	25
-teamOneWinsAfter	600
+teamOneWinsAfter	720
 replaceNormalDroidsWithSuperDroids	no
 droidSpawnRateMultiplierTeamZero	1
 droidGroupSizeMultiplierTeamZero	1
